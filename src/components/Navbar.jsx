@@ -13,7 +13,7 @@ const Navbar = () => {
         <a href="https://www.linkedin.com/in/sai-krishna-m-55a0b3139/"
           target='_blank'
           rel='noopener noreferrer'
-          aria-label='About Me'>About Me
+          aria-label='LinkedIn'><FaLinkedin />
           </a>
           <a href="https://github.com/SAIKrishna140"
           target='_blank'
