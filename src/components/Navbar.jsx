@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/saiKrishnaLogo.png';
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaGithub   } from "react-icons/fa";
 const Navbar = () => {
   return (
 <nav className="flex items-center justify-between py-6">
@@ -18,12 +18,12 @@ const Navbar = () => {
           <a href="https://github.com/SAIKrishna140"
           target='_blank'
           rel='noopener noreferrer'
-          aria-label='Github'><FaLinkedin />
+          aria-label='Github'><FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/sai-krishna-m-55a0b3139/"
+          <a href="https://www.instagram.com/_sai_krishna_m/"
           target='_blank'
           rel='noopener noreferrer'
-          aria-label='LinkedIn'><FaLinkedin />
+          aria-label='Instagram'><FaInstagram />
           </a>
       </div>
     </nav>
